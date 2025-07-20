@@ -8,7 +8,15 @@ const linkStyle = {
 
 function Navbar() {
   return (
-    <nav style={{ padding: '10px 20px', borderBottom: '1px solid #ddd' }}>
+    <nav
+      style={{
+        padding: '10px 20px',
+        borderBottom: '1px solid #ddd',
+        backgroundColor: 'mintcream',
+        display: 'flex',
+        justifyContent: 'center',
+      }}
+    >
       <Link to="/" style={linkStyle}>
         Home
       </Link>
