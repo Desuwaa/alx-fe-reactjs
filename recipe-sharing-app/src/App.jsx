@@ -3,12 +3,15 @@ import AddRecipeForm from './components/AddRecipeForm';
 import RecipeList from './components/RecipeList';
 import SearchBar from './components/SearchBar';
 import RecipeDetails from './components/RecipeDetails';
+import FavoritesList from './components/FavoritesList';
+import RecommendationsList from './components/RecommendationsList';
 
 function App() {
   return (
     <div style={{ padding: '1rem' }}>
       <h1>Recipe Sharing App</h1>
       <SearchBar />
+
       <Routes>
         <Route
           path="/"
@@ -16,6 +19,8 @@ function App() {
             <>
               <AddRecipeForm />
               <RecipeList />
+              <FavoritesList />
+              <RecommendationsList />
             </>
           }
         />

@@ -18,6 +18,7 @@ const RecipeDetails = () => {
       <p>{recipe.description}</p>
       <EditRecipeForm recipe={recipe} />
       <DeleteRecipeButton recipeId={recipe.id} />
+      <FavoriteButton recipeId={recipe.id} />
     </div>
   );
 };
