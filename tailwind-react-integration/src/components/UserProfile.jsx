@@ -10,7 +10,10 @@ function UserProfile() {
         className="rounded-full w-36 h-36 mx-auto w-24 h-24 md:w-36 md:h-36 hover:scale-110
         transition-transform duration-300 ease-in-out"
       />
-      <h1 className="text-xl text-blue-800 my-4 hover:text-blue-500 transition-colors duration-300 ease-in-out cursor-pointer">
+      <h1
+        className="text-xl text-blue-800 my-4 hover:text-blue-500 transition-colors duration-300 ease-in-out cursor-pointer
+      sm:text-lg md:text-xl"
+      >
         John Doe
       </h1>
       <p className="text-gray-600 text-base">
